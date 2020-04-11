@@ -15,21 +15,36 @@ subtitle = ""
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
 
 [[feature]]
-  icon = "r-project"
+  icon = "python"
   icon_pack = "fab"
-  name = "R"
-  description = "90%"
+  name = "Python"
+  description = "other programing languages : R, Fortran, Bash"
   
 [[feature]]
-  icon = "chart-line"
+  icon = "database"
   icon_pack = "fas"
-  name = "Statistics"
-  description = "100%"  
+  name = "NetCDF data processing"
   
 [[feature]]
-  icon = "camera-retro"
+  icon = "globe"
   icon_pack = "fas"
-  name = "Photography"
-  description = "10%"
+  name = "Languages"
+  description = "French, Spanish, English"
+
+  [[feature]]
+  icon = "project-diagram"
+  icon_pack = "fas"
+  name = "Modeling"
+
+  [[feature]]
+  icon = "book-open"
+  icon_pack = "fas"
+  name = "Scientific reading"
+
+  [[feature]]
+  icon = "satellite"
+  icon_pack = "fas"
+  name = "Remote-sensing data"
+  description = "Analysis"
 
 +++

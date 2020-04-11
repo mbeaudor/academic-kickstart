@@ -5,7 +5,7 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 65  # Order that this section will appear.
 
-title = "Projects"
+title = "My PhD Project"
 subtitle = ""
 
 [content]
@@ -61,7 +61,7 @@ subtitle = ""
   # gradient_end = "SkyBlue"
   
   # Background image.
-  # image = "background.jpg"  # Name of image in `static/img/`.
+  # image = "orchidee.png"  # Name of image in `static/img/`.
   # image_darken = 0.6  # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.
 
   # Text color (true=light or false=dark).
@@ -73,5 +73,20 @@ subtitle = ""
  
  # CSS class.
  css_class = ""
+
+ # Using neural networks algorithm => calculate the ammonia fluxes with IASI column measurements. 
+
 +++
+{{< figure library="true" src="orchidee.png" title="" lightbox="true" >}}
+
+My PhD project includes **modeling approaches** consisting in better understanding and representing the **nitrogen cycle** at global scale. I am particularly interested by the impacts of the **agricultural sector** on the **air quality and the climate**.
+Livestock activities and the fertilization input are major sources of nitrogen.  
+The models that are at stake are ORCHIDEE for the continental surface compartment and LMDz-INCA for the atmospheric part.
+* After identifying the key processes in ORCHIDEE.
+One of the objectives of my project is to develop a module related to **livestock emissions** at global scale taking into account feeding and manure management. 
+This module will be used to set up diferent types of scenarios in order to better analyze the evolution of the agriculture.
+* Secondly, I will work on the impact of the emissions on the **atmospheric composition** and on the potential feedbacks associated. To do so, I will need to develop a part of the **coupling between ORCHIDEE and LMDz-INCA** in order to make the atmopshere and the biosphere interacting.  
+* Beside, I have the idea to evaluate the atmopsheric ammonia concentration calculated by INCA with current available **satellite data** as IASI. 
+
+
 
